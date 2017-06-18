@@ -2,4 +2,4 @@
 
 A simple startpage by [rishd.](https://www.reddit.com/r/startpages/comments/6ak6qd/new_to_rstartpages_and_been_lurking_for_a_while/)
 
-Original version is in the `original` folder, my personalised version is in the `customised` folder. Feel free to fork and customise to your own needs.
+My personalised version is in the `customised` folder. Feel free to fork and customise to your own needs.
