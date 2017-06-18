@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+
+<head>
+  <title>HOME</title>
+  <link rel="stylesheet" type="text/css" href="stylesheet.css" />
+  <link rel="icon" type="image/png" href="icon.png">
+  <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/dejavu-sans-mono" type="text/css" />
+  <script>
+    /*function startTime() {
+            var today = new Date();
+            var h = today.getHours();
+            var m = today.getMinutes();
+            var s = today.getSeconds();
+            m = checkTime(m);
+            s = checkTime(s);
+            document.getElementById('welcome').innerHTML =
+            h + ":" + m + ":" + s;
+            var t = setTimeout(startTime, 500);
+        }
+        function checkTime(i) {
+            if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+            return i;
+        }*/
+    function date_time() {
+      date = new Date;
+      year = date.getFullYear();
+      month = date.getMonth();
+      months = new Array('January', 'February', 'March', 'April', 'May', 'June', 'Jully', 'August', 'September', 'October', 'November', 'December');
+      d = date.getDate();
+      day = date.getDay();
+      days = new Array('Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday');
+      h = date.getHours();
+      if (h < 10) {
+        h = "0" + h;
+      }
+      m = date.getMinutes();
+      if (m < 10) {
+        m = "0" + m;
+      }
+      s = date.getSeconds();
+      if (s < 10) {
+        s = "0" + s;
+      }
+      result = '' + days[day] + ' | ' + months[month] + '_' + d + '_' + year + ' | ' + h + '_' + m + '_' + s;
+      document.getElementById('welcome').innerHTML = result;
+      setTimeout('date_time("' + 'welcome' + '");', '1000');
+      return true;
+
+    }
+  </script>
+</head>
+
+<body onload="date_time()">
+  <div class="all sites">
+
+    <div class="category" id="welcome"></div>
+
+
+
+    <div class="category" id="UNI_stuff">
+
+      <a href="#">
+        <div class="link">WATTLE</div>
+      </a>
+      <a href="#">
+        <div class="link">PHIL1004</div>
+      </a>
+      <a href="#">
+        <div class="link">POLS1002</div>
+      </a>
+      <a href="#">
+        <div class="link">COMP1100</div>
+      </a>
+      <a href="#">
+        <div class="link">MATH1005</div>
+      </a>
+      <a href="#">
+        <div class="link">ANU_EMAIL</div>
+      </a>
+      <a href="#">
+        <div class="link">ISIS</div>
+      </a>
+
+    </div>
+
+    <div class="category" id="procrastination">
+      <a href=# "><div class="link ">NETFLIX</div></a>
+            <a href="# "><div class="link ">YOUTUBE</div></a>
+            <a href="# "><div class="link ">REDDIT</div></a>
+            <a href="# "><div class="link ">4CHAN</div></a>
+            <a href="# "><div class="link ">TUMBLR</a></div></a>
+        </div>
+
+        <div class="category " id="social_media">
+            <a href="# "><div class="link ">FACEBOOK</div></a>
+            <a href="# "><div class="link ">INSTAGRAM</div></a>
+            <a href="# "><div class="link ">TWITTER</div></a>
+        </div>
+
+
+        <div class="category " id="other ">
+            <a href="# "><div class="link ">GMAIL</div></a>
+            <a href="# "><div class="link ">GOOGLE</div></a>
+        </div>
+
+
+    </div>
+
+    <footer></footer>
+</body>
