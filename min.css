@@ -1,0 +1,14 @@
+body{font-family:'DejaVuSansMonoBold';background-size:cover;letter-spacing:5px;margin:0;padding:0;background-color:#D5EBC9;}
+a:link{color:black;text-decoration:none;}
+a:visited{color:black;text-decoration::none;}
+a:hover{color:black;text-decoration::none;}
+a:active{text-decoration::none;}
+.allsites{padding:0;}
+.category{margin:0;top:0;left:0;right:0;bottom:0;padding-top:44.9px;padding-bottom:44.9px;}
+#welcome{text-align:center;background-color:#44BCA4;}
+#UNI_stuff{background-color:#6BCCA5;}
+#procrastination{background-color:#8BD3B4;}
+#social_media{background-color:#A4D4A4;}
+#other{background-color:#D5EBC9;}
+.link{text-align:center;line-height:200%;-webkit-transition:opacity 0.25s, letter-spacing 0.25s;transition:opacity 0.25s, letter-spacing 0.25s;}
+.link:hover{opacity:0.2;-webkit-transition:opacity 0.25s, letter-spacing 0.25s;transition:opacity 0.25s, letter-spacing 0.25s;letter-spacing:0px}
